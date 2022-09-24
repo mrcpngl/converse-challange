@@ -1,0 +1,142 @@
+/*HOCANIN YAPTIĞI*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+/*Product Informations*/
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 45px auto;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  padding: 15px;
+}
+.price {
+  font-size: 24px;
+  margin: auto;
+}
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/*Product Details*/
+
+/* BENİM YAPTIĞIM */
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+/*For Button*/
+
+.add-cart {
+  background-color: black;
+  border: none;
+  border-top: 4px solid black;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #e3e0e0;
+}
+
+/* body {
+  font-family: sans-serif;
+  line-height: 1.4;
+} */
+
+/* body article p:nth-child(4),
+h2,
+h3,
+.buton {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.product {
+  text-align: center;
+  background-color: #ededed;
+}
+.price {
+  font-size: 25px;
+  font-weight: bold;
+}
+.shipping {
+  font-size: 12px;
+  font-weight: bold;
+  color: #464646;
+}
+ul li {
+  list-style: square;
+}
+
+.more-info:link {
+  color: black;
+}
+.more-info:visited {
+  background-color: brown;
+}
+.more-info:hover {
+  text-decoration: none;
+}
+.more-info:active {
+  text-decoration: none;
+}
+
+.buton {
+  border: none;
+  background-position: left;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  line-height: 25px;
+}
+.buton:hover {
+  cursor: grab;
+  background-color: white;
+  color: black;
+} */ ;

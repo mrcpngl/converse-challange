@@ -1,0 +1,123 @@
+/*HOCANIN YAPTIĞI*/
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+/*Product Informations*/
+.product {
+  border: 4px solid black;
+}
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+}
+
+.price {
+  font-size: 24px;
+}
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/*Product Details*/
+
+/* BENİM YAPTIĞIM */
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.details-list {
+  list-style: square;
+}
+
+/*For Button*/
+
+.add-cart {
+  background-color: black;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: white;
+}
+
+/* body {
+  font-family: sans-serif;
+  line-height: 1.4;
+} */
+
+/* body article p:nth-child(4),
+h2,
+h3,
+.buton {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.product {
+  text-align: center;
+  background-color: #ededed;
+}
+.price {
+  font-size: 25px;
+  font-weight: bold;
+}
+.shipping {
+  font-size: 12px;
+  font-weight: bold;
+  color: #464646;
+}
+ul li {
+  list-style: square;
+}
+
+.more-info:link {
+  color: black;
+}
+.more-info:visited {
+  background-color: brown;
+}
+.more-info:hover {
+  text-decoration: none;
+}
+.more-info:active {
+  text-decoration: none;
+}
+
+.buton {
+  border: none;
+  background-position: left;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  line-height: 25px;
+}
+.buton:hover {
+  cursor: grab;
+  background-color: white;
+  color: black;
+} */ ;

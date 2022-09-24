@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.genc {
+  background-color: #b1363a;
+  font-size: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2px 4px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.arkaplan {
+  background-color: #508cc7;
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  z-index: -1;
+}
+
+.player-nameAndNumber {
+  writing-mode: vertical-rl;
+  text-orientation: inherit;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 50px;
+  left: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.alexdesouza {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  z-index: 1;
+}
+.ball {
+  position: absolute;
+  top: 170px;
+  left: 145px;
+  z-index: 2;
+}
+.card-number {
+  position: absolute;
+  top: 187px;
+  left: 162px;
+  font-size: 10px;
+  z-index: 3;
+}
+
+p {
+  font-size: 12px;
+}
+
+footer {
+  position: absolute;
+  top: 205px;
+}
+footer p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.yasBoy {
+  position: relative;
+  top: -35px;
+  left: 125px;
+}
