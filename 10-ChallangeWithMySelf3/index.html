@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Like a Media Player!</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .controls-container {
+        display: flex;
+        width: 650px;
+        height: 100px;
+        background-color: darkgrey;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .top-controls {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+      .playback-controls {
+        display: flex;
+        align-items: center;
+      }
+      .pc {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        background-color: brown;
+        gap: 30px;
+        margin: 10px;
+      }
+      .pc2 {
+        width: 35px;
+        height: 35px;
+      }
+      .progress-control {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .bar {
+        width: 450px;
+        height: 5px;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="controls-container">
+      <div class="controls">
+        <div class="top-controls">
+          <div class="playback-controls">
+            <div class="pc pc1"></div>
+            <div class="pc pc2"></div>
+            <div class="pc pc3"></div>
+          </div>
+        </div>
+        <div class="progress-control">
+          <div class="time-left">2:45</div>
+          <div class="bar"></div>
+          <div class="time-right">3:45</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
